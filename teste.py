@@ -3,7 +3,7 @@ import streamlit as st
 import plotly.express as px
 
 #ler arquivo
-tabela = pd.read_excel(r'https://github.com/TheoSerafin/Streamlit/Teste.xlsx')
+tabela = pd.read_excel(r'TheoSerafin/Streamlit/Teste.xlsx')
 
 #plotar gráficos
 graf_barra = px.bar(tabela, x="Produto", y="Valor", color_discrete_sequence=['#ff6100'])
